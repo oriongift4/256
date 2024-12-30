@@ -1,0 +1,13 @@
+div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: To center vertically based on viewport height */
+}
+
+video {
+  width: 100%; /* Ensures the video takes full width of its container */
+  max-width: 300px; /* Limits the maximum width to 600px */
+  max-height: auto;
+}
